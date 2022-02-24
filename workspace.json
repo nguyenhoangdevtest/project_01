@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "libs/api",
+    "mobile-app": "apps/mobile-app",
+    "mobile-app-e2e": "apps/mobile-app-e2e",
+    "models": "libs/models",
+    "test-a": "apps/test-a",
+    "test-a-e2e": "apps/test-a-e2e",
+    "ui": "libs/ui",
+    "utils": "libs/utils"
+  }
+}

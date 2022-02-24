@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@workspace-a/api": ["libs/api/src/index.ts"],
+      "@workspace-a/models": ["libs/models/src/index.ts"],
+      "@workspace-a/ui": ["libs/ui/src/index.ts"],
+      "@workspace-a/utils": ["libs/utils/src/index.ts"],
+      "@public/*": ["apps/test-a/public/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
