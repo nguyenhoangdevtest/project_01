@@ -3,7 +3,7 @@ import React from 'react';
 const AdminPage = () => {
     return (
         <div>
-            Hoang Admin Page
+            Linh Linh Admin Page
         </div>
     );
 };
