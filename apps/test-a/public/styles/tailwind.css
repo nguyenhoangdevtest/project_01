@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .shadow-all-edges {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  }
+}
