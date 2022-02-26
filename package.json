@@ -11,10 +11,12 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
+    "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "@next/bundle-analyzer": "^12.1.0",
     "@nrwl/next": "13.8.3",
     "axios": "^0.26.0",
+    "classnames": "^2.3.1",
     "core-js": "^3.6.5",
     "keen-slider": "^6.6.3",
     "less": "^4.1.2",
@@ -32,6 +34,7 @@
     "simplebar-react": "^2.3.6",
     "styled-breakpoints": "^11.0.4",
     "styled-components": "5.3.3",
+    "swiper": "^7.4.1",
     "tslib": "^2.0.0"
   },
   "devDependencies": {

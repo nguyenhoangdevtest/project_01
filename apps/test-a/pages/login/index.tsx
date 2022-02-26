@@ -1,10 +1,18 @@
 import React from 'react';
 import { Card } from 'antd';
 import NxImage from 'next/image';
+import Button from 'libs/ui/src/lib/button'
+import ButtonAtnd from 'libs/ui/src/lib/antd/ButtonAntd'
+import Alert from 'libs/ui/src/lib/alert';
+import { Swiper, SwiperSlide, Navigation } from 'libs/ui/src/lib/slider';
 
 const { Meta } = Card;
 
 const LoginPage = () => {
+
+
+  
+
   return (
     <div className="text-xl font-bold">
       Login Page
@@ -21,7 +29,30 @@ const LoginPage = () => {
       >
         <Meta title="Europe Street beat" description="www.instagram.com" />
       </Card>
-      ,
+      <ButtonAtnd
+        className="mx-auto lg:mx-0 mt-2 lg:mt-0"
+        type="primary"
+        size="large"
+        style={{ paddingLeft: 30, paddingRight: 30 }}
+      >
+        <span>Continue</span>
+      </ButtonAtnd>
+      <Button className="w-1/2 bg-red-400 col-span-2 bg-">Submit</Button>
+
+
+
+      <Alert
+          message={'Test Alert'}
+          variant="error"
+          closeable={true}
+          className="mt-5"
+          onClose={() => console.log('Close')}
+        />
+
+
+
+
+
     </div>
   );
 };

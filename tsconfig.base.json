@@ -19,7 +19,8 @@
       "@workspace-a/models": ["libs/models/src/index.ts"],
       "@workspace-a/ui": ["libs/ui/src/index.ts"],
       "@workspace-a/utils": ["libs/utils/src/index.ts"],
-      "@public/*": ["apps/test-a/public/*"]
+      "@public/*": ["apps/test-a/public/*"],
+      "@icons/*": ["libs/ui/src/lib/icons/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
