@@ -1,5 +1,5 @@
 {
-  "locales": ["en", "vi"],
+  "locales": ["en", "vi", "de"],
   "defaultLocale": "en",
   "localeDetection": false,
   "pages": {

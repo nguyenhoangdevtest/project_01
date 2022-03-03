@@ -22,7 +22,7 @@
     "**/*.js",
     "**/*.jsx",
     "next-env.d.ts"
-, "../../i18n.js"  ],
+, "../../i18n.json"  ],
   "exclude": [
     "node_modules"
   ]

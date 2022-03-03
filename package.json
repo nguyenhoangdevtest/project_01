@@ -6,15 +6,17 @@
     "start": "nx run test-a:serve",
     "build": "nx build",
     "test": "nx test",
-    "start-web": "NODE_ENV=development env-cmd -f .env.test nx run test-a:serve  --port 3000 --trace-warnings"
+    "start-web": "NODE_ENV=development env-cmd -f .env.test nx serve test-a --port 3000 --trace-warnings --verbose"
   },
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
+    "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
     "@next/bundle-analyzer": "^12.1.0",
     "@nrwl/next": "13.8.3",
     "axios": "^0.26.0",
+    "classnames": "^2.3.1",
     "core-js": "^3.6.5",
     "keen-slider": "^6.6.3",
     "less": "^4.1.2",
