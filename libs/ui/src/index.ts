@@ -36,5 +36,4 @@ export * from './lib/thumb-carousel';
 export * from './lib/tree-menu';
 export * from './lib/truncate';
 export * from './lib/validation-error';
-
 export * from './lib/icons/close-icon';
