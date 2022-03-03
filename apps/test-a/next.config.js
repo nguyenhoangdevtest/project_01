@@ -24,4 +24,6 @@ const nextConfig = {
   },
 };
 
-module.exports = withBundleAnalyzer(withNx(nextConfig));
+module.exports = nextTranslate(withBundleAnalyzer(withNx(nextConfig)), {
+  appPath: { appPath: process.env.NEXT_TRANSLATE_PATH },
+});

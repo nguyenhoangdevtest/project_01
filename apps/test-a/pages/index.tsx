@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import useTranslation from 'next-translate/useTranslation';
 
 const StyledPage = styled.div`
   .page {
@@ -11,6 +12,7 @@ export function Index() {
    *
    * Note: The corresponding styles are in the ./index.styled-components file.
    */
+  const { t } = useTranslation();
   return (
     <StyledPage>
       <div className="wrapper">

@@ -41,13 +41,13 @@ const ButtonWrapper = styled.div`
   }
 `;
 
-export interface ButtonAntdProps extends AntdButtonProps {
+export interface ButtonAtndProps extends AntdButtonProps {
   borderless?: boolean;
   containerStyle?: any;
   containerClass?: string;
 }
 
-export function ButtonAntd({ containerClass, containerStyle, borderless, ...buttonProps }: ButtonProps) {
+export function ButtonAtnd({ containerClass, containerStyle, borderless, ...buttonProps }: ButtonAtndProps) {
   return (
     <ButtonWrapper className={`${containerClass || ''} ${borderless ? 'ant-btn-borderless' : ''}`} style={containerStyle}>
       <AntdButton {...buttonProps} />
@@ -55,4 +55,4 @@ export function ButtonAntd({ containerClass, containerStyle, borderless, ...butt
   );
 }
 
-export default ButtonAntd;
+export default ButtonAtnd;
