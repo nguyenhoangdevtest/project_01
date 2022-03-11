@@ -45,6 +45,8 @@ const LoginPage = () => {
         className="mt-5"
         onClose={() => console.log('Close')}
       />
+
+      <NxImage src="/images/ic_bluetooth.svg" width={100} height={150} />
     </div>
   );
 };
